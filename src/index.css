@@ -1,0 +1,62 @@
+.Cards {
+  color: #000;
+  background-color: #fff;
+  padding-bottom: 20px;
+  box-shadow: 0 15px 25px #817c7c33;
+  font-size: medium;
+  border-radius: 14px;
+  backdrop-filter: blur(2px);
+  text-align: center;
+  margin-bottom: 30px;
+  width: 300px;
+  margin-right: 1em;
+}
+
+h1 {
+  font-size: 75px;
+  line-height: 1.1;
+  text-align: center;
+  text-shadow: black 1px 0 10px;
+  padding-bottom: 18px;
+  margin-left: 50px;
+  argin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  unicode-bidi: isolate;
+}
+
+.Cards img {
+  height: 300px;
+  width: 300px;
+}
+img {
+  height: 200px;
+  width: 200px;
+}
+
+.header img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.Grid {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #cc0606;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
